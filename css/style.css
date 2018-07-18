@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: segoe ui;
+}
+
+.main-header{
+    width:100%;
+    height:60px;
+    background:#000;
+}
+
+.main-header-links{
+    margin:0 auto; 
+}
+
+.main-header-links ul{
+    width:630px;
+    margin:0 auto;
+}
+
+.main-header-links ul li{
+    list-style:none;
+    float:left;
+    padding:8px 25px 8px 25px;
+    font-size:12px;
+}
+
+.main-header-links ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    line-height:44px;
+    transition:0.1s ease-in;
+}
+
+.main-header-links ul li a:hover{
+    opacity:0.70;
+}
+
+.login-links{
+    padding-top:12px;
+  
+}
+
+.bird-box {
+  position: relative;
+  height: 600px;
+  background-image: url(../images/img4.jpg);
+  background-repeat:repeat-x;
+  background-size:contain;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  height: 140px;
+  width: 100%;
+  background-image: url(../images/yash.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  background-size:contain; 
+}
+
+.fore-bird {
+  width: 960px;
+  height: 733px;
+  background-image: url(../images/hd-model.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top:10px;
+}
+
+.back-bird {
+  width: 960px;
+  height: 298px;
+  background-image: url(../images/back-bird.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+	top:100px;
+}
